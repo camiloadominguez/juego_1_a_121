@@ -115,7 +115,7 @@ document.addEventListener('click', function(e)
 
 nom_div("ayuda").addEventListener('click', function(event)
     {
-        if(ayudas<300 )
+        if(ayudas<3)
         {
             numeroB = nom_div("adivina").innerHTML;
             //console.log(numeroB);
